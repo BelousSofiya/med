@@ -9,7 +9,7 @@ else:
 stand1=(input(stand))
 if stand1 == "+":
     print(g)
-    input
+    input()
 else:
     airways1=(input(airways))
     if airways1 =="-":
@@ -20,31 +20,31 @@ else:
                 breath31 = input(breath3)
                 if breath31 == "-":
                     print(b)
-                    input
+                    input()
                 else:
                     print(r)
-                    input
+                    input()
             else:
                 print(b)
-                input
+                input()
         else:
             print(r)
-            input
+            input()
     else:
         breathing_rate1 = input(breathing_rate)
         if breathing_rate1 == "+":
             print(r)
-            input
+            input()
         else:
             pulse1 = input(pulse)
             if pulse1 == "-":
                 print(r)
-                input
+                input()
             else:
                 conscious1 = input(conscious)
                 if conscious1 == "+":
                     print(y)
-                    input
+                    input()
                 else:
                     print(r)
                     input()
